@@ -24,7 +24,8 @@ $(function() {
           }" id="editBtn">(edit)</a></span>
         </div>
     </li>
-    <hr/>`);
+    <hr/>`)
+    $("#numTotalPosts").text(`${posts.length}`);
     }
   };
 
