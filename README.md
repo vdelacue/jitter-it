@@ -24,7 +24,10 @@ Front-End is built using
 > - `AJAX`
 > - `ckEditor` 
 > - `Google Fonts`
+# **initial wireframe**
+![initial wireframe](./public/assets/images/jitter-wireframe.png)
 
-
+# **color palette**
+![color palette](./public/assets/images/jitter-it-color-palette.png)
 
 MIT © [Vanessa de la Cuetara](2019)
