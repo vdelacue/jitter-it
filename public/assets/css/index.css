@@ -217,6 +217,52 @@ hr {
     color: #fcd18C;
     font-size: 20px;
 }
+/* Media Query 768 */
+@media only screen and (max-width: 952px) {
+    
+    h2 {
+        padding: 15px;
+        letter-spacing: 1px;
+        font-size: 20px;
+    }
+    
+    h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    h4 {
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    
+    li h5 {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .date {
+        font-size: 15px;
+    }
+    
+    .edit a {
+        font-size: 13px;
+    }
+    #numTotalPosts {
+        font-size: 15px;
+    }
+    
+  }
+
+  /* Media Query 600 */
+@media only screen and (max-width: 600px) {
+    
+ 
+    
+  }
+/* General convention suggests mobile first designing however since challenge would be viewed laptop first design was made with that is mind */
+/* Media Queries only done to basic level indepth media queries specific to device would be as described below */
+/* use CSS Tricks as reference for media querie https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
 /* ----------- Laptop Media Queries ----------- */
 /* Non-Retina Screens */
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {}
