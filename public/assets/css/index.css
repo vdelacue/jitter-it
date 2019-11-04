@@ -87,6 +87,7 @@ li h5 {
     background-color: #FFFFFF;
     height: 100px;
 }
+
 /***** Shake *****/
 .shake button:hover {
     animation: shake 75ms infinite;
@@ -153,6 +154,10 @@ li h5 {
     height: -webkit-fill-available;
 }
 
+#user-profile-600px {
+    display: none;
+}
+
 .user-profile-column {
     background-color: #F79C26;
     color: #FFFFFF;
@@ -178,6 +183,7 @@ li h5 {
     background-color: #fefefe;
     overflow: scroll;
 }
+
 #latestPostsDiv {
     padding: 10px 20px 10px 20px;
 }
@@ -201,7 +207,8 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
-    margin: 0.5em 0 1.5em 0;;
+    margin: 0.5em 0 1.5em 0;
+    ;
     padding: 0;
 }
 
@@ -217,25 +224,28 @@ hr {
     color: #fcd18C;
     font-size: 20px;
 }
-/* Media Query 768 */
+
+/* Media Query 952 */
 @media only screen and (max-width: 952px) {
-    
+    .page-wrapper {
+        margin: 40px 25px 25px 60px
+    }
     h2 {
         padding: 15px;
         letter-spacing: 1px;
         font-size: 20px;
     }
-    
+
     h3 {
         font-size: 20px;
         line-height: 30px;
     }
-    
+
     h4 {
         font-size: 15px;
         letter-spacing: 1px;
     }
-    
+
     li h5 {
         font-size: 20px;
         line-height: 23px;
@@ -244,25 +254,41 @@ hr {
     .date {
         font-size: 15px;
     }
-    
+
     .edit a {
         font-size: 13px;
     }
+
     #numTotalPosts {
         font-size: 15px;
     }
-    
-  }
 
-  /* Media Query 600 */
+}
+
+/* Media Query 600 */
 @media only screen and (max-width: 600px) {
-    user-profile-column {
+    #userProfileData {
         display: none;
     }
-    
- 
-    
-  }
+
+    #user-main-content-600px, #user-sub-content-600px {
+        display: block;
+        background-color: #F79C26;
+        color: #FFFFFF;
+        font-family: "Nexa Light";
+        border: 2px solid #C9883D;
+        margin-bottom: 0px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .double-column {
+        flex: 6;
+    }
+
+
+
+}
+
 /* General convention suggests mobile first designing however since challenge would be viewed laptop first design was made with that is mind */
 /* Media Queries only done to basic level indepth media queries specific to device would be as described below */
 /* use CSS Tricks as reference for media querie https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
