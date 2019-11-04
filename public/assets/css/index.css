@@ -1,0 +1,254 @@
+/* Custom fonts downloaded */
+@font-face {
+    font-family: "Nexa Light";
+    src: url(NexaLight/Nexa\ Light.otf) format("truetype");
+}
+
+@font-face {
+    font-family: "Rio Light";
+    src: url(Rio2016-Light-Regular1/Rio2016-Light.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Nexa Bold";
+    src: url(NexaLight/Nexa\ Bold.otf) format("truetype");
+}
+
+/* --- General Settings --- */
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F0F1F2;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page-wrapper {
+    margin: 60px 35px 35px 100px
+}
+
+a {
+    cursor: ;
+}
+
+
+/***** Shake *****/
+
+.shake button:hover {
+    animation: shake 75ms infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(2.5deg);
+    }
+
+    50% {
+        transform: rotate(-2.5deg);
+    }
+
+    100% {
+        transform: rotate(2.5deg);
+    }
+}
+
+
+h2 {
+    padding: 20px;
+    font-family: "Nexa Bold";
+    color: #A1A2A3;
+    letter-spacing: 1px;
+    font-size: 30px;
+
+}
+
+h3 {
+    font-size: 30px;
+    font-family: "Nexa Bold";
+    line-height: 40px;
+}
+
+h4 {
+    font-family: "Nexa Bold";
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+li h5 {
+    color: #F69220;
+    font-size: 25px;
+    line-height: 28px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.double-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 2;
+}
+
+.post-column {
+    background-color: #FFFFFF;
+    height: 100px;
+}
+
+.user-profile-column {
+    background-color: green;
+    height: 100%;
+}
+
+
+/* ----------- Laptop Media Queries ----------- */
+/* Non-Retina Screens */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {}
+
+/* Media Queries Laptop Retina Screens */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {}
+
+/* ----------- Phone and handhelds Media Queries ----------- */
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {}
+
+/* --- Header logo --- */
+
+.logo {
+    font-size: 3rem;
+    border: 2px solid #C9883D;
+    border-radius: 70% 70% 70% 70%;
+    padding: 10px;
+    text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+    color: #FFFFFF;
+    background: #f69220;
+    display: -webkit-inline-box;
+    margin-bottom: 15px;
+    font-family: "Nexa Bold";
+    font: bold;
+
+
+}
+
+/* --- ckEditor --- */
+#cke_editor1 {
+    border: 2px solid #C9883D;
+    ;
+
+}
+
+/* Left and Right Colums Responsive */
+
+
+
+
+
+#jitter-It-Btn {
+    /* font styling */
+    font-family: "Nexa Bold";
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 10px 5px 10px;
+    margin: 10px 0px 10px 0px;
+    /* gradient effect */
+    background: #F79C26;
+    background: -moz-linear-gradient(top, #F79C26 0%, #f69220 50%, #F79C26 100%);
+    background: -webkit-linear-gradient(top, #F79C26 0%, #F69220 50%, #F79C26 100%);
+    background: linear-gradient(to bottom, #F79C26 0%, #F69220 50%, #F79C26 100%);
+    border: 5px double #C9883D;
+    border-radius: 23px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 0.5em 0 1.5em 0;;
+    padding: 0;
+}
+
+.main-content {
+    border-bottom: 5px solid #C9883D;
+    border-radius: 0px;
+    margin-top: 40px;
+    height: -webkit-fill-available;
+
+}
+
+.user-profile-column {
+    background-color: #F79C26;
+    color: #FFFFFF;
+    font-family: "Nexa Light";
+    border-left: 2px solid #C9883D;
+    padding: 10px 30px 10px 30px;
+
+}
+
+#latestPostsDiv {
+    padding: 10px 20px 10px 20px;
+}
+
+#userAvatar {
+    margin: 10px 0px 10px 0px;
+    border: 3px solid #FEFEFE;
+    border-radius: 10px;
+}
+
+.user-main-content {
+    margin-bottom: 10px;
+}
+
+.user-sub-content {
+    font-size: 15px;
+    line-height: 1.4em;
+}
+
+/* --- Post Comments--- */
+#postCommentsSection {
+    background-color: #fefefe;
+    overflow: scroll;
+}
+.post-content {
+    margin-bottom: 15px;
+}
+
+.date {
+    color: #A1A2A3;
+    font-size: 20px;
+}
+
+.edit a {
+    color: #D1D2D3;
+    font-size: 18px;
+}
+
+#numTotalPosts {
+    color: #fcd18C;
+    font-size: 20px;
+}
+
+/* --- --- */

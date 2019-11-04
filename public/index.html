@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- CDN - Meyers reset style sheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+
+    <!-- custon CKeditor -->
+    <script src="./ckeditor2/ckeditor.js"></script>
+    <!-- Also able to customize cdn for ckeditor if used cdn link for ckeditor -->
+    <!-- <script src="https://cdn.ckeditor.com/4.13.0/full/ckeditor.js"></script> -->
+
+    <!-- CDNs - JQuery / Font-Awesome / Google Fonts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- custom style sheets -->
+    <link rel="stylesheet" href="assets/css/index.css">
+    <title>Jitter</title>
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <!-- Header Logo -->
+        <header>
+            <h1 class="logo">Jitter</h1>
+        </header>
+
+        <!-- Text-area CKEditor Section -->
+        <section class="textareaSection">
+            <textarea cols="80" id="jitterEditor" name="jitterEditor" rows="10">
+            </textarea>
+            <div class="shake">
+                <button id="jitter-It-Btn" data-functionality="jitter-it">JITTER IT!</button>
+            </div>
+        </section>
+
+        <!-- Main content row posts and user Profile -->
+        <div class="row main-content">
+            <!-- Post comments dynamic rendering -->
+            <div class="double-column" id="postCommentsSection">
+                <div class="post-column">
+                    <h2>Latest Posts</h2>
+                    <!-- target div for dynamic rendering -->
+                    <div id="latestPostsDiv">
+                        <ul class="post-list">
+                            <li class="post-item">
+                                <h5 class="post-content">balah alskdjflaksdjflaksdjf
+                                </h5>
+                                <div class="info">
+                                    <span class="date">September 10, 2019</span>
+                                    <span class="spacer"> | </span>
+                                    <span class="edit" ><a href="#jitterEditor" id="editBtn">(edit)</a>
+                                    </span>
+                                </div>
+                            </li>
+                            <hr />
+                            <li class="post-item">
+                                <h5 class="post-content">sample post paragragh Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Voluptate natus, error praesentium modi inventore quos quia
+                                        mollitia quas ipsa alias nesciunt est iste commodi, hic similique? Illo magni
+                                        placeat laboriosam.
+                                </h5>
+                                <div class="info">
+                                    <span class="date">September 10, 2019</span>
+                                    <span class="spacer"> | </span>
+                                    <span class="edit"><a href="#">(edit)</a>
+                                    </span>
+                                </div>
+                            </li>
+                            <hr />
+                            <li class="post-item">
+                                <h5 class="post-content">sample post paragragh Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Voluptate natus, error praesentium modi inventore quos quia
+                                        mollitia quas ipsa alias nesciunt est iste commodi, hic similique? Illo magni
+                                        placeat laboriosam.
+                                </h5>
+                                <div class="info">
+                                    <span class="date">September 10, 2019</span>
+                                    <span class="spacer"> | </span>
+                                    <span class="edit"><a href="#">(edit)</a>
+                                    </span>
+                                </div>
+                            </li>
+                            <hr />
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- User profile data -->
+            <div class="column" id="userProfileData">
+                <div class="user-profile-column">
+                    <div class="user-main-content">
+                        <!-- User image taken from lfrom image media folder -->
+                        <img id="userAvatar" alt="User Profile Picture"
+                            src="https://www.lform.com/_img/_media/staff/lform_moseby.jpg/150x150?method=resize" />
+                        <h3>TheoMos74</h3>
+                        <h4>Total Posts: <span id="numTotalPosts">5</span></h4>
+                    </div>
+                    <div class="user-sub-content">
+                        <h5>Name: Theodore E. Mosby </h5>
+                        <h5>Email: <a href="Mosby@lform.com?Subject=Hey%20Mosby!">Mosby@lform.com</a></h5>
+                        <h5>Website: <a href="www.lform.com">www.lform.com</a></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="assets/js/index.js"></script>
+    <script type="text/javascript" src="assets/js/customCKE.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+</body>
+
+</html>
