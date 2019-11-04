@@ -1,7 +1,7 @@
 
 # **Jitter-It**
 
-a Node, Express, and MySQL powered twitter like post application. The user will have the ability to create, read, and edit posts from a MySQL database. [Jitter-It Website](https://shielded-escarpment-57780.herokuapp.com/)
+a Node, Express, and MySQL powered twitter like post application. The user will have the ability to create, read, and edit posts from a MySQL database. [Jitter-It Website](https://jitter-it.herokuapp.com/)
 
 ---
 

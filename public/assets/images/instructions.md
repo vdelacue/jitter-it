@@ -13,3 +13,6 @@ You will be creating a small webapp call Jitter, this test will gauge your knowl
 1. The 'Total Posts' line should reflect the total number of posts in the posts table.
 1. Integrate a rich text editor (such as TinyMCE or CKEditor) for the Jitter textarea, it should contain the following buttons: bold, italic, underline, font size, font color, link, unlink, insert image, remove style formatting, clean up code, HTML view, full screen. Configure it as it appears in the design example.
 1. Once you have completed the test, create a dump of the MySQL database and include it in a zipfile containing all the Jitter site files required to run the site and mail it to [updates@lform.com](mailto:updates@lform.com).
+
+git remote rm heroku
+heroku git:remote -a newname
