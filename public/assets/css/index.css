@@ -154,7 +154,7 @@ li h5 {
     height: -webkit-fill-available;
 }
 
-#user-profile-600px {
+#user-main-content-600px, #user-sub-content-600px {
     display: none;
 }
 
@@ -267,6 +267,11 @@ hr {
 
 /* Media Query 600 */
 @media only screen and (max-width: 600px) {
+    #cke_editor1 {
+        border: 2px solid #C9883D;
+        width: 100%
+    }
+    
     #userProfileData {
         display: none;
     }
