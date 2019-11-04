@@ -1,4 +1,3 @@
-
 # **Jitter-It**
 
 a Node, Express, and MySQL powered twitter like post application. The user will have the ability to create, read, and edit posts from a MySQL database. [Jitter-It Website](https://jitter-it.herokuapp.com/)
@@ -27,6 +26,9 @@ Front-End is built using
 
 # **template for challenge**
 ![template for challenge](./public/assets/images/jitter.jpg)
+
+# **Final screen shot of Jitter-it**
+![Screen Shot of Jitter-it](./public/assets/images/final-screenshot-jitter-it.png)
 
 # **initial wireframe**
 ![initial wireframe](./public/assets/images/jitter-wireframe.png)
